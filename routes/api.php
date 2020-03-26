@@ -19,4 +19,5 @@ Route::middleware('auth:api')->get('/usuario', 'UsuarioApiController@usuario');
 Route::middleware('auth:api')->post('/suma','UsuarioApiController@suma');
 
 Route::apiResource('casas','CasasApiController');
+
 //middleware('auth:api')->
