@@ -20,4 +20,7 @@ Route::middleware('auth:api')->post('/suma','UsuarioApiController@suma');
 
 Route::apiResource('casas','CasasApiController');
 
+Route::apiResource('negocios','NegociosApiController');
+
+
 //middleware('auth:api')->
